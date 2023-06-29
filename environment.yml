@@ -1,0 +1,12 @@
+name: europython
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipywidgets
+  - matplotlib
+  - notebook
+  - pandas
+  - python=3.11
+  - seaborn
+  - scikit-learn

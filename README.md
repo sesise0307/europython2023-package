@@ -33,7 +33,7 @@ and even share with your colleagues and friends.
   - Cons: code sharing, refactoring support, *git* integration, advanced editing, etc.
 - IDE and Jupyter Notebook are not exclusive. We can benefit from the best of both worlds.
 
-### Jupyter Notebook Workflow
+### Data Science Workflow with Jupyter
 
 - REPL (Read-Eval-Print-Loop)
 - Simple Refactoring
