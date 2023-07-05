@@ -1,0 +1,23 @@
+# Reference: https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adult-data-analysis"
+dynamic = ["version"]
+authors = [
+    { name="Sin-seok SEO", email="sesise@gmail.com" },
+]
+description = "Adult data analysis package"
+readme = "README.md"
+dependencies = [
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "adult_data_analysis.__version__"}
