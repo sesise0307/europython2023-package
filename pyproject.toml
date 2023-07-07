@@ -13,7 +13,9 @@ authors = [
 description = "Adult data analysis package"
 readme = "README.md"
 dependencies = [
+    "matplotlib",
     "pandas",
+    "seaborn",
 ]
 
 [tool.setuptools.packages.find]
