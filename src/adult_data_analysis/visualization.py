@@ -11,15 +11,3 @@ def statistical_plots(adult_df, var, separate_by="income"):
 
     plt.subplot(133)
     sns.boxplot(data=adult_df, y=var, x=separate_by)
-
-
-def normalized_count_heatmap(adult_df, var, separate_by="income"):
-    sns.heatmap(
-        adult_df.groupby(separate_by)[[var]].value_counts(normalize=True).unstack(),
-        cmap="Blues",
-        annot=True,
-        linewidths=1,
-        vmin=0.0,
-        vmax=1.0,
-        fmt=".1%",
-    )
