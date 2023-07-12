@@ -22,6 +22,7 @@ and even share with your colleagues and friends.
 - Python beginner
 
 ## [Slides](./slides.pdf)
+
 ## Outline
 
 ### Introduction
@@ -47,7 +48,7 @@ and even share with your colleagues and friends.
 
 ### To (Your Own) Python Package
 
-- What is a package and why we do we want to use it?
+- What is a package and why do we want to use it?
 - How to create a (minimal) package
 - How to import and use
 - [Live refactoring examples](./notebook/6_installing_and_using_the_package.ipynb)
