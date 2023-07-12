@@ -21,6 +21,7 @@ and even share with your colleagues and friends.
 - Jupyter notebook beginner
 - Python beginner
 
+## [Slides](./slides.pdf)
 ## Outline
 
 ### Introduction
@@ -35,32 +36,27 @@ and even share with your colleagues and friends.
   - Designed to maximize programmer productivity
   - One iteration might take a long journey
 - We can benefit from the best of both worlds
-  by using Python packages
+  by using a Python package
 
-### Jupyer Notebook Data Science Workflow
+### Jupyter Notebook Data Science Workflow
 
 - [Data Loading](./notebook/1_data_loading.ipynb)
 - [Preprocessing](./notebook/2_preprocessing.ipynb)
 - [Exploratory Data Analysis (EDA)](./notebook/3_EDA.ipynb)
 - [Prediction](./notebook/4_prediction.ipynb)
 
-### To (Your Own) Package
+### To (Your Own) Python Package
 
 - What is a package and why we do we want to use it?
-- How to create a package
-- (Essential) Refactoring
-  - Naming and coding style (PEP8, *black*)
-  - Code structure
-- How to (properly) import in a Jupyter notebook
-  - Based on local dependency
-  - *sys.path.append()*
-  - Install as a library: *pip install **-e** [DIR]*
-  - *autoreload* magic command in a Jupyter notebook
-- Make it available to the world: *pypi*
+- How to create a (minimal) package
+- How to import and use
+- [Live refactoring examples](./notebook/6_installing_and_using_the_package.ipynb)
 
-### Conclusion
+### Wrap up / Some tips
 
-- Some tips and references
+- Publish your awesome package
+- PyScaffold
+- VS Code
 
 ## Contact
 
