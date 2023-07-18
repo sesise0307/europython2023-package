@@ -33,7 +33,7 @@ and even share with your colleagues and friends.
     visualization, rapid prototyping, result sharing, etc.
   - Cons: lacks of debugging, code sharing, refactoring, version control,
     advanced editing, etc.
-- Full-fledged IDEs
+- IDE (Integrated Development Environment)
   - Designed to maximize programmer productivity
   - One iteration might take a long journey
 - We can benefit from the best of both worlds
@@ -50,8 +50,7 @@ and even share with your colleagues and friends.
 
 - What is a package and why do we want to use it?
 - How to create a (minimal) package
-- How to import and use
-- [Live refactoring examples](./notebook/6_installing_and_using_the_package.ipynb)
+- [How to import and use](./notebook/5_using_the_package.ipynb)
 
 ### Wrap up / Some tips
 
